@@ -1,6 +1,6 @@
 
-    h1 {text-align:  left;
-            color: black;
+ h1 {text-align:  left;
+            color: rgb(255, 255, 255);
             font-family: Agbalumo;
         font-size: 500%;
             }
@@ -9,13 +9,66 @@
         margin-left: 10%;}
 
     p {margin-top: 15%; 
-        margin-left: 10%;
-        margin-right: 20%;
+        margin-left: 5%;
+        margin-right: 50%;
         font-family: Agbalumo;
-            color: black;
+            color: rgb(255, 255, 255);
     }
+   body {background-color: black;
+        color: white;
+}
+           
 
- 	.huh { background-color:rgb;
-            font-size: 150%;
-            font-family: Agbalumo;
-            color: black;}
+
+
+            .home-menu {
+                padding: 2em;
+                text-align: center;
+                box-shadow: 0 3px 3px rgb(0, 0, 0);
+            }
+            .home-menu {
+                background-image: url(cheeetahbanner.png);
+                background-size: 1920px 150px;
+                background-repeat: repeat-x;
+                font-family: Agbalumo;
+                color: white ;
+                
+            }
+            .pure-menu.pure-menu-fixed {
+                /* Fixed menus normally have a border at the bottom. */
+                border-bottom: none;
+                /* I need a higher z-index here because of the scroll-over effect. */
+                z-index: 4;
+            }
+            
+            .home-menu .pure-menu-heading {
+                color: rgb(255, 255, 255);
+                font-weight: 400;
+                font-size: 120%;
+            }
+            
+            .home-menu .pure-menu-selected a {
+                color:rgb(255, 255, 255);
+            }
+            
+            .home-menu li a { 
+                font-size: 150%;
+                font-family: Agbalumo;
+                color: white;
+                padding-top: 30%;
+            }
+
+            .home-menu li a:hover,
+            .home-menu li a:focus {
+                background: none;
+                border: none;
+                color:rgb(0, 0, 0);
+            }
+
+
+            .home-menu {
+                text-align: left;
+            }
+                .home-menu ul {
+                    float: right;
+                }
